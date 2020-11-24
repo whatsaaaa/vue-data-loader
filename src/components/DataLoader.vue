@@ -5,12 +5,11 @@
     </slot>
     <template v-if="!response.loading">
       <slot v-if="response.data" :data="response.data" name="data">
-        <p>Success, you got an response:</p>
-        <code>{{ response.data }}</code>
+        <p>Success</p>
       </slot>
+
       <slot v-if="response.error" :error="response.error" name="error">
-        <p>Oh no, there was an error with your request:</p>
-        <code>{{ response.error }}</code>
+        <p>Oh no, there was an error with your request.</p>
       </slot>
     </template>
   </div>
