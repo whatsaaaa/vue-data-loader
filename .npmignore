@@ -1,0 +1,27 @@
+.DS_Store
+
+# User & editor settings
+.editorconfig
+.vscode
+
+# Build files
+.circleci
+.github
+.storybook
+dist
+node_modules
+package-lock.json
+
+# Documentation files
+storybook-static
+config
+stories
+tests
+coverage
+.eslintrc.js
+
+# Others
+src
+public
+babel.config.js
+.editorconfig
