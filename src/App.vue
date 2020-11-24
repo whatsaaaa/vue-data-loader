@@ -1,10 +1,15 @@
 <template>
-  Hi
+  <DataLoader url="https://jsonplaceholder.typicode.com/posts/1" />
 </template>
 
 <script>
+import DataLoader from "./components/DataLoader";
+
 export default {
   name: "App",
+  components: {
+    DataLoader,
+  },
 };
 </script>
 
