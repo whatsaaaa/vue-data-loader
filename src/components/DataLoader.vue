@@ -28,10 +28,6 @@ export default defineComponent({
       type: String,
       required: true,
     },
-    slowDown: {
-      type: Boolean,
-      default: false,
-    },
   },
   setup(props) {
     const url: ComputedRef<string> = computed(() => props.url);
