@@ -1,6 +1,6 @@
 {
   "name": "@whatsaaaaa/vue-data-loader-component",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": false,
   "description": "Data Loader Component built with Vue 3",
   "homepage": "https://github.com/whatsaaaa/vue-data-loader#readme",
@@ -30,7 +30,8 @@
   ],
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-data-loader ./src/components/index.js"
+    "build": "vue-cli-service build --target lib --name vue-data-loader ./src/components/index.js",
+    "deploy": "npm run build && npm publish --access public"
   },
   "dependencies": {
     "@whatsaaaaa/vue-data-fetch": "^0.1.1",
