@@ -22,6 +22,12 @@
     "name": "@whatsaaaaa",
     "email": "aleksandarmilicevic18@gmail.com"
   },
+  "main": "dist/vue-data-loader.common.js",
+  "module": "dist/vue-data-loader.umd.min.js",
+  "unpkg": "dist/vue-data-loader.common.js",
+  "files": [
+    "dist/vue-data-loader.common.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vue-data-loader ./src/components/index.js"
