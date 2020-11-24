@@ -24,7 +24,7 @@
   },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vue-next-timeline ./src/components/index.js"
+    "build": "vue-cli-service build --target lib --name vue-data-loader ./src/components/index.js"
   },
   "dependencies": {
     "@whatsaaaaa/vue-data-fetch": "^0.1.1",
