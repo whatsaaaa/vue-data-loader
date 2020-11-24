@@ -1,10 +1,30 @@
 {
-  "name": "vue-data-loader-component",
+  "name": "@whatsaaaaa/vue-data-loader-component",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "Data Loader Component built with Vue 3",
+  "homepage": "https://github.com/whatsaaaa/vue-data-loader#readme",
+  "bugs": {
+    "url": "https://github.com/whatsaaaa/vue-data-loader/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/whatsaaaa/vue-data-loader.git"
+  },
+  "keywords": [
+    "vue",
+    "vue3",
+    "vuejs",
+    "javascript",
+    "vue-next"
+  ],
+  "author": {
+    "name": "@whatsaaaaa",
+    "email": "aleksandarmilicevic18@gmail.com"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build --target lib --name vue-next-timeline ./src/components/index.js"
   },
   "dependencies": {
     "@whatsaaaaa/vue-data-fetch": "^0.1.1",
@@ -15,5 +35,11 @@
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0"
-  }
+  },
+  "license": "MIT",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
 }
