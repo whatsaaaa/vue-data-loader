@@ -16,12 +16,12 @@
   </div>
 </template>
 
-<script lang="ts">
+<script>
 import { computed, defineComponent, ComputedRef } from "vue";
 
 import vueFetch from "@whatsaaaaa/vue-data-fetch/dist";
 
-export default defineComponent({
+export default {
   name: "DataLoader",
   props: {
     url: {
@@ -30,12 +30,12 @@ export default defineComponent({
     },
   },
   setup(props) {
-    const url: ComputedRef<string> = computed(() => props.url);
+    const url = computed(() => props.url);
     const response = vueFetch(url);
 
     return {
       response,
     };
   },
-});
+};
 </script>
